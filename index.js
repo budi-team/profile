@@ -7,7 +7,7 @@ form.addEventListener('submit', (event) => {
     data[key] = value;
   }
   const xhr = new XMLHttpRequest();
-  xhr.open('POST', 'submit-form.php'); // Update to the name of your PHP file
+  xhr.open('POST', 'https://github.com/budi-team/profile/blob/master/submit-form.php'); // Update to the name of your PHP file
   xhr.setRequestHeader('Content-Type', 'application/json');
   xhr.onload = () => {
     if (xhr.status === 200) {
